@@ -1,0 +1,41 @@
+*{
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+}
+h3{
+    font-family: 'Cedarville Cursive', cursive;
+}
+input {
+    border: none;
+    background-color: #f3f3f3;;
+    padding: 1.4rem 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    width: 25rem;
+    color: black;
+}
+
+button{
+    color: whitesmoke;
+    border: none;
+    background-color: blueviolet;
+    padding: 1.4rem 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    width: 25rem;
+}
+
+
+#result{
+    padding: 1.4rem 1rem;
+}
