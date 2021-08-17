@@ -23,7 +23,7 @@ const calculateProfitAndLoss=(buyPrice, noOfStocks, sellPrice)=>{
         }
     else{
             if(buyPrice===sellPrice)
-                showResult(`No Pain No Gain No Gain is Also No Pain`)
+                showOutput(`No Pain No Gain No Gain is Also No Pain`)
         }
 }
 
