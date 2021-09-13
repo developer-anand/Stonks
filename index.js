@@ -11,15 +11,15 @@ let outPut = document.querySelector("#result");
 const calculateProfitAndLoss=(buyPrice, noOfStocks, sellPrice)=>{
     if(sellPrice>buyPrice){
         let profit = (sellPrice - buyPrice)*noOfStocks;
-        let diff= sellPrice - buyPrice;
-        let profitPercentage = (diff/buyPrice)*100;
-        showOutput(`Zambo u made a profit of ${diff*noOfStocks} Rupees and the percent gain is ${profitPercentage}%`)
+        //let diff= sellPrice - buyPrice;
+        let profitPercentage = (profit/buyPrice)*100;
+        showOutput(`Zambo u made a profit of ${profit*noOfStocks} Rupees and the percent gain is ${profitPercentage}%`)
         }
     else if(sellPrice<buyPrice){
         let lost = (buyPrice - sellPrice)*noOfStocks;
         let diff = buyPrice - sellPrice;
-        let lostPercentage = (diff/buyPrice)*100;
-        showOutput(`Oh!!! u made a loss of ${diff*noOfStocks} Rupees and the loss percent is ${lostPercentage}%`)
+        let lostPercentage = (lost/buyPrice)*100;
+        showOutput(`Oh!!! u made a loss of ${lost*noOfStocks} Rupees and the loss percent is ${lostPercentage}%`)
         }
     else{
             if(buyPrice===sellPrice)
